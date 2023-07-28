@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.like-btn {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.like-btn.liked {
+  background-color: red;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.quantity span {
+  margin: 0 5px;
+}
+
+.remove-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
